@@ -1,11 +1,11 @@
 import React from 'react'
 import { View, StyleSheet } from 'react-native'
 
-import MinMax from "./components/MinMax"
+import Title from "./components/TitleComponent"
 
 export default () => (
     <View style={style.App}>
-        <MinMax min={3} max={20} />
+        <Title main="Register Product" secondary="List of Products" />
     </View>
 )
 
