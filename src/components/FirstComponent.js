@@ -1,4 +1,7 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-export default () => <Text>First Component!</Text>
+import Style from './commonStyle'
+
+
+export default () => <Text style={Style.textBig}>First Component!</Text>
