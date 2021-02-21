@@ -1,15 +1,11 @@
 import React from 'react'
 import { View, StyleSheet } from 'react-native'
 
-import FirstComponent from './components/FirstComponent'
-import OfficialComponent, { Component1, Component2 } from './components/MultiComponents'
+import MinMax from "./components/MinMax"
 
 export default () => (
     <View style={style.App}>
-        <FirstComponent />
-        <OfficialComponent />
-        <Component1 />
-        <Component2 />
+        <MinMax min={3} max={20} />
     </View>
 )
 
@@ -17,6 +13,7 @@ const style = StyleSheet.create({
     App: {
         flexGrow: 1,
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
+        padding: 20
     }
 })
