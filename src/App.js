@@ -1,4 +1,10 @@
 import React from 'react'
-import { Text } from 'react-native'
+import { View } from 'react-native'
 
-export default () => <Text> Hello World!</Text>
+import FirstComponent from './components/FirstComponent'
+
+export default () => (
+    <View>
+        <FirstComponent />
+    </View>
+)
