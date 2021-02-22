@@ -1,14 +1,11 @@
 import React from 'react'
 import { View, StyleSheet } from 'react-native'
 
-import Title from "./components/TitleComponent"
-import Button from './components/ButtonComponent'
+import Count from "./components/CountComponent"
 
 export default () => (
     <View style={style.App}>
-        <Title main="Register Product" secondary="List of Products" />
-
-        <Button />
+        <Count number={100}/>
     </View>
 )
 
