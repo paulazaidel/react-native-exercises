@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, StyleSheet } from 'react-native'
 
-import MainComponent from "./components/directCommunication/MainComponent"
+import MainComponent from './components/indirectCommunication/MainComponent'
 
 export default () => (
     <View style={style.App}>
