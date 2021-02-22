@@ -1,0 +1,18 @@
+{
+	"Component": {
+		"scope": "javascript,typescript",
+		"prefix": "compFunc",
+		"body": [
+			"import React from 'react'",
+			"import { Text } from 'react-native'",
+			"import Style from './commonStyle'",
+			"",
+			"export default props => {",
+			"    return (",
+			"        <Text>$1</Text>",
+			"    )",
+			"}",
+		],
+		"description": "Log output to console"
+	}
+}
