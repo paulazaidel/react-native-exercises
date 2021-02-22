@@ -1,11 +1,11 @@
 import React from 'react'
 import { View, StyleSheet } from 'react-native'
 
-import Count from "./components/CountComponent"
+import MainComponent from "./components/directCommunication/MainComponent"
 
 export default () => (
     <View style={style.App}>
-        <Count number={100}/>
+       <MainComponent />
     </View>
 )
 
