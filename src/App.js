@@ -1,20 +1,15 @@
 import React from 'react'
 import { StyleSheet, SafeAreaView } from 'react-native'
 
-import Family from './components/relationship/FamilyComponent'
-import Member from './components/relationship/MemberComponent'
+import UserLogged from './components/UserLoggedComponent'
 
 
 export default () => (
     <SafeAreaView style={style.App}>
-       <Family>
-            <Member name="Bia" surname="Arruda" />
-            <Member name="Carlos" surname="Arruda" />
-        </Family>
-        <Family>
-            <Member name="João" surname="Silva" />
-            <Member name="Bastião" surname="Silva" />
-        </Family>
+       <UserLogged user={{name:'Paula', email:'paula@gmail.com'}} />
+       <UserLogged user={{name:'Paula'}} />
+       <UserLogged user={{}} />
+       <UserLogged />
     </SafeAreaView>
 )
 
