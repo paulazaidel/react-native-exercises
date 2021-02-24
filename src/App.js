@@ -1,11 +1,20 @@
 import React from 'react'
 import { StyleSheet, SafeAreaView } from 'react-native'
 
-import OddEven from './components/OddEven'
+import Family from './components/relationship/FamilyComponent'
+import Member from './components/relationship/MemberComponent'
+
 
 export default () => (
     <SafeAreaView style={style.App}>
-       <OddEven  number={4}/>
+       <Family>
+            <Member name="Bia" surname="Arruda" />
+            <Member name="Carlos" surname="Arruda" />
+        </Family>
+        <Family>
+            <Member name="João" surname="Silva" />
+            <Member name="Bastião" surname="Silva" />
+        </Family>
     </SafeAreaView>
 )
 
