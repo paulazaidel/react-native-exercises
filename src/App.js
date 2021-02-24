@@ -1,12 +1,12 @@
 import React from 'react'
-import { View, StyleSheet } from 'react-native'
+import { StyleSheet, SafeAreaView } from 'react-native'
 
-import Counter from './components/counter/CounterComponent'
+import OddEven from './components/OddEven'
 
 export default () => (
-    <View style={style.App}>
-       <Counter />
-    </View>
+    <SafeAreaView style={style.App}>
+       <OddEven  number={4}/>
+    </SafeAreaView>
 )
 
 const style = StyleSheet.create({
