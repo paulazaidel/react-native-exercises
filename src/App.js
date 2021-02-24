@@ -1,15 +1,14 @@
 import React from 'react'
 import { StyleSheet, SafeAreaView } from 'react-native'
 
-import UserLogged from './components/UserLoggedComponent'
+import ListProducts from './components/products/ListProductsComponent'
+import ListProductsv2 from './components/products/ListProductsv2Component'
 
 
 export default () => (
     <SafeAreaView style={style.App}>
-       <UserLogged user={{name:'Paula', email:'paula@gmail.com'}} />
-       <UserLogged user={{name:'Paula'}} />
-       <UserLogged user={{}} />
-       <UserLogged />
+        {/* <ListProducts /> */}
+        <ListProductsv2 />
     </SafeAreaView>
 )
 
