@@ -1,12 +1,12 @@
 import React from 'react'
 import { StyleSheet, SafeAreaView } from 'react-native'
 
-import InputName from './components/InputNameComponent'
+import FlexBoxV1 from './components/layout/FlaxBoxV1Component'
 
 
 export default () => (
     <SafeAreaView style={style.App}>
-        <InputName></InputName>
+        <FlexBoxV1></FlexBoxV1>
     </SafeAreaView>
 )
 
