@@ -1,12 +1,12 @@
 import React from 'react'
 import { StyleSheet, SafeAreaView } from 'react-native'
 
-import FlexBoxV4 from './components/layout/FlaxBoxV4Component'
+import DrawComponent from './components/draw/DrawComponent'
 
 
 export default () => (
     <SafeAreaView style={style.App}>
-        <FlexBoxV4></FlexBoxV4>
+        <DrawComponent amountNumbers={12} />
     </SafeAreaView>
 )
 
